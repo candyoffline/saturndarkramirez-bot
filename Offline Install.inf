@@ -1,0 +1,13 @@
+; One Offline Created By DiamondAnimate 3DS
+;https://drive.google.com/drive/folders/1pHiAzTDS03qMHLBPvqMrCaPSW42J2axv
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Web, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Web = 10,"%WEB_DIR%"
+Scheme.Txt = 10,"%WEB_DIR%"
